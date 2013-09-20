@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NFDatabaseController.h"
 
-@interface NFViewController : UIViewController
-
+@interface NFViewController : UIViewController <UICollectionViewDataSource>
+@property (strong, nonatomic) NFDatabaseController* products;
 @end

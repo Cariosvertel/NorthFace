@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<array>
+		<string>MENS BETTER THAN NAKED JACKET</string>
+		<string>MENS DOUBLE-TRACK GUIDE</string>
+		<string>MENS HYPER-TRACK GUIDE</string>
+		<string>MENS ULTRA GUIDE</string>
+		<string>MENS TORPEDO JACKET</string>
+		<string>MENS GTD CAPRI TIGHT</string>
+		<string>MENS BETTER THAN NAKED SHORT</string>
+		<string>MENS BETTER THAN NAKED S/S</string>
+		<string>MENS VORACIOUS DUAL SHORT 7</string>
+		<string>HANDHELD HYDRATOR</string>
+		<string>WOMENS BETTER THAN NAKED JACKET</string>
+		<string>WOMENS DOUBLE-TRACK GUIDE</string>
+		<string>WOMENS ULTRA GUIDE</string>
+		<string>WOMENS SINGLE-TRACK HAYASA</string>
+		<string>WOMENS TORPEDO JACKET</string>
+		<string>WOMENS GTD TIGHT</string>
+		<string>WOMENS STOW-N-GO II A/B HIGH IMP</string>
+		<string>WOMENS BETTER THAN NAKED S/S</string>
+		<string>TORRENT 4</string>
+		<string>WOMENS OSITO JACKET</string>
+		<string>WOMENS THUNDER JACKET</string>
+		<string>WOMENS VERBERA HIKER GTX</string>
+		<string>WOMENS VERTO S4K GTX</string>
+	</array>
+	<key>sku</key>
+	<array>
+		<string>A49X</string>
+		<string>A4UK</string>
+		<string>A4UH</string>
+		<string>A4UM</string>
+		<string>A44Y</string>
+		<string>AXUM</string>
+		<string>A49Z</string>
+		<string>A49Y</string>
+		<string>A1HN</string>
+		<string>ARMZ</string>
+		<string>A1HU</string>
+		<string>A4UP</string>
+		<string>A4UQ</string>
+		<string> A03Z</string>
+		<string>A44F</string>
+		<string>AVKX</string>
+		<string>AXTX</string>
+		<string>A1HV</string>
+		<string>AWJP</string>
+		<string>AAHY</string>
+		<string>A35J</string>
+		<string>A04S</string>
+		<string>A4VU</string>
+	</array>
+	<key>type</key>
+	<array>
+		<string>Chaquetas</string>
+		<string>Zapateria</string>
+		<string>Zapateria</string>
+		<string>Zapateria</string>
+		<string>Chaquetas</string>
+		<string>Pantalon y Short</string>
+		<string>Pantalon y Short</string>
+		<string>Poleras y Poleron</string>
+		<string>Pantalon y Short</string>
+		<string>Accesorios</string>
+		<string>Chaquetas</string>
+		<string>Zapateria</string>
+		<string>Zapateria</string>
+		<string>Zapateria</string>
+		<string>Chaquetas</string>
+		<string>Pantalon y Short</string>
+		<string>Poleras y Poleron</string>
+		<string>Poleras y Poleron</string>
+		<string>Equipamiento</string>
+		<string>Chaquetas</string>
+		<string>Chaquetas</string>
+		<string>Zapateria</string>
+		<string>Zapateria</string>
+	</array>
+	<key>category</key>
+	<array>
+		<string>Hombre</string>
+		<string>Hombre</string>
+		<string>Hombre</string>
+		<string>Hombre</string>
+		<string>Hombre</string>
+		<string>Hombre</string>
+		<string>Hombre</string>
+		<string>Hombre</string>
+		<string>Hombre</string>
+		<string>Hombre y Mujer</string>
+		<string>Mujer</string>
+		<string>Mujer</string>
+		<string>Mujer</string>
+		<string>Mujer</string>
+		<string>Mujer</string>
+		<string>Mujer</string>
+		<string>Mujer</string>
+		<string>Mujer</string>
+		<string>Hombre y Mujer</string>
+		<string>Mujer</string>
+		<string>Mujer</string>
+		<string>Mujer</string>
+		<string>Mujer</string>
+	</array>
+	<key>benefits</key>
+	<array>
+		<string>windprotection</string>
+		<string>waterproof</string>
+		<string>waterproof</string>
+		<string>waterproof</string>
+		<string>waterproof y windprotection</string>
+		<string>waterproof</string>
+		<string>water resistant</string>
+		<string>water resistant</string>
+		<string>water resistant</string>
+		<string>none</string>
+		<string>waterproof y windprotection</string>
+		<string>waterproof</string>
+		<string>waterproof</string>
+		<string>waterproof</string>
+		<string>waterproof y windprotection</string>
+		<string>water resistant</string>
+		<string>waterproof y windprotection</string>
+		<string>water resistant</string>
+		<string>waterproof</string>
+		<string>waterproof y windprotection</string>
+		<string>waterproof y windprotection</string>
+		<string>waterproof</string>
+		<string>waterproof</string>
+	</array>
+	<key>price</key>
+	<array>
+		<string>79000</string>
+		<string>72000</string>
+		<string>69000</string>
+		<string>66000</string>
+		<string>59000</string>
+		<string>39000</string>
+		<string>35000</string>
+		<string>35000</string>
+		<string>32000</string>
+		<string>18000</string>
+		<string>79000</string>
+		<string>74000</string>
+		<string>66000</string>
+		<string>66000</string>
+		<string>59000</string>
+		<string>49000</string>
+		<string>28000</string>
+		<string>35000</string>
+		<string>67000</string>
+		<string>70000</string>
+		<string>170000</string>
+		<string>115000</string>
+		<string>210000</string>
+	</array>
+	<key>stock</key>
+	<array>
+		<true/>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+		<string>YES</string>
+	</array>
+	<key>activity</key>
+	<array>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Runing</string>
+		<string>Trekking/ Hiking</string>
+		<string>Trekking/ Hiking</string>
+		<string>Trekking/ Hiking</string>
+		<string>Trekking/ Hiking</string>
+	</array>
+	<key>details</key>
+	<array>
+		<string>Esta chaqueta resistente al agua y viento con 360 grados de reflectividad te mantendrá visible, seco y cálido. Presenta una tecnología FlashDryTM de The North Face®, que trabaja con tu cuerpo para mejorar la transpiración y el tiempo de secado.</string>
+		<string>El modelo Double-Track Guide es liviano y ágil, y corrige tu sobrepronación sin que te des cuenta. Es una zapatilla de trail running acolchada, que posee una singular estabilidad: una que abre paso a movimientos de máxima destreza, y sin esa molesta sensa</string>
+		<string>Una zapatilla de entrenamiento liviana y sensitiva, con un excelente desempeño sobre el pavimento y/o el sendero. Presenta una innovadora tecnología CRADLE GUIDET, la cual entrega un eficiente control de impacto durante toda su fase, mejorando el rechazo</string>
+		<string>Una liviana pero resistente zapatilla de running fuera de pista, creada para dominar los senderos más complejos. Presenta una innovadora tecnología CRADLE GUIDET, la cual entrega un eficiente control de impacto durante toda su fase, mejorando el rechazo</string>
+		<string>Esta chaqueta, resistente al agua y al viento, posee reflectividad en 36 grados para que te mantengas seco, abrigado y visible.</string>
+		<string>Patas tipo Capri ceñidas y de buen soporte, con un excelente ajuste; perfectas como primera capa o para usarlas por sí solas.</string>
+		<string>Short liviano, listo para la carrera, con un interior de tecnología FlashDryTM de The North Face® que mejora drásticamente el tiempo de secado y transpirabilidad.</string>
+		<string>Una polera liviana, respirable, con uniones libre de costuras y ventilación devoré con tecnologíaThe North Face® FlashDryTM que mejora drásticamente el tiempo de secado y la transpirabilidad durante carreras largas.Presenta la tecnología FlashDryTM</string>
+		<string>Short liviano, de tejido elástico con un forro interior compresivo para soporte y comodidad para corridas de primavera.&quot;</string>
+		<string>Moderna, cómoda y respirable botella de hidratación al alcance de la mano.</string>
+		<string>Esta chaqueta liviana, resistente al agua y al viento es ideal para salir a correr en la primavera. Presenta una tecnología FlshDryTM de The North Face®, que trabaja con tu cuerpo para mejorar la transpiración y el tiempo de secado.&quot;</string>
+		<string>El modelo Double-Track Guide es liviano y ágil, y corrige tu sobrepronación sin que te des cuenta. Es una zapatilla de trail running acolchada, que posee una singular estabilidad: una que abre paso a movimientos de máxima destreza, y sin esa molesta sensa</string>
+		<string>Una liviana pero resistente zapatilla de running fuera de pista, creada para dominar los senderos más complejos. Presenta una innovadora tecnología CRADLE GUIDET, la cual entrega un eficiente control de impacto durante toda su fase, mejorando el rechazo</string>
+		<string>Diseñada en colaboración con el atleta The North Face® Tsuyoshi Kaburaki, esta zapatilla es ultra-liviana y está afinada especialmente para la competencia. Ofrece una excelente sensación de suelo y brinda al mismo tiempo un máximo soporte y protección; ne</string>
+		<string>Chaqueta resistente al agua y al viento con reflectividad en 360 grados, que te mantendrá visible, seca y abrigada.</string>
+		<string>Estas patas tienen apoyo y compresión, y son perfectas para ser usadas como capa o por sí sola.</string>
+		<string>Sostén deportivo de doble capa, capaz de absorber grandes impactos, ofrece protección y un bolsillo interno.</string>
+		<string>Una camiseta liviana, lista para la carrera, que absorbe la humedad con costuras sin puntos y ventilación en la espalda. Presenta la tecnología FlashDryTM de The North Face® que trabaja con tu cuerpo para mejorar el tiempo de secado</string>
+		<string>Una mochila minimalista, enfocada en hidratación, completamente equipado y con suficiente espacio para llevar lo esencial.</string>
+		<string>Polar con capucha, durable y cómodo, perfecto para esos días de frío.</string>
+		<string>Un clásica chaqueta con capa intermedia ultra ligera con aislación de 800 y altamente comprimible para multiusos en excursiones.</string>
+		<string>Liviana bota full equipo para excursiones de un día, diseñada en Italia; perfecta para acarrear cargas de bajo peso sobre terreno técnico.</string>
+		<string>Una bota para alta montaña de inmejorable clase, gracias a su artesanía Italiana y fabricación Europea. Compatible con uso de medio crampón, con protección GORE-TEX® impermeable y respirable, y tecnología CRADLET; te entregará un máximo de desempeño</string>
+	</array>
+	<key>feature1</key>
+	<array>
+		<string>Capa de DWR</string>
+		<string>Malla de tejido ceñido, resistente a abrasión Soporte medial&quot;</string>
+		<string>Construcción superior minimalista, ligera y sin costuras&quot;</string>
+		<string>Plataforma de entresuela CRADLE GUIDET de EVA, de compresión-dual&quot;</string>
+		<string>Cobertura DWR</string>
+		<string>Panales de malla</string>
+		<string>Sin costurtas internas</string>
+		<string>Tejido antihumedad totalmente transpirable, con diseño de ventilación fisiológica</string>
+		<string>Forro compresivo agregado</string>
+		<string>Bolsillo de seguridad con cierre y un compartimiento para la basura al reverso</string>
+		<string>Ajuste atlético actualizado - sin necesidad de cordón</string>
+		<string>Protección de planta frontal Snake PlateT de TPU&quot;</string>
+		<string>Lengua con cuello anti-escombros</string>
+		<string>Lengua con cuello anti-escombros</string>
+		<string>Ventilación en capas</string>
+		<string>Paneles de malla transpirable</string>
+		<string>Ventilación adaptada a cada zona del cuerpo</string>
+		<string>Tejido antihumedad totalmente transpirable, con diseño de ventilación fisiológica</string>
+		<string>Nueva reserva de agua en forma de donut para prevenir el efecto de abultamiento y mejora la ventilación</string>
+		<string>Comodidad tradicional y durabilidad  además de una capucha de fibre ultra suave</string>
+		<string>Dos bolsillos para las manos, con cierre</string>
+		<string>Membrana GORE-TEX® impermeable y respirableEstructura superior de cuero Nubuck con malla balística</string>
+		<string> Membrana GORE-TEX® impermeable y respirable</string>
+	</array>
+	<key>feature2</key>
+	<array>
+		<string>Reflectividad</string>
+		<string>Sistema de ajuste metatarsiano C-Delta</string>
+		<string>Malla multicapas respirable</string>
+		<string>Calugas de goma para alta abrasión localizadas estratégicamente en la suela externa</string>
+		<string>Reflectividad</string>
+		<string>Ventilación estratégica</string>
+		<string>&quot;Bolsillo de seguridady Bolsillo de fácil acceso y Bolsillos para gel de glucosa en la parte trasera&quot;</string>
+		<string>Tejido bicolor burn out</string>
+		<string>Bolsillo con cierreLocker</string>
+		<string>Correa para ceñir, de rápida liberación, asegura un buen ajuste</string>
+		<string>Paneles posteriores para mayor transpirabilidad y ventilación fisiológica</string>
+		<string>Malla de tejido ceñido, resistente a abrasión</string>
+		<string>&quot;Malla de tejido ceñido, resistente a abrasiónSoporte medial con soldadura de TPU</string>
+		<string>&quot;Malla de tejido ceñido, resistente a abrasiónSoporte medial con soldadura de TPU</string>
+		<string>Diseno ajustado</string>
+		<string>Ventilación adaptada a cada zona del cuerpo</string>
+		<string>Soporte absorbe- impactos integrado</string>
+		<string>Tejido bicolor burn out</string>
+		<string>Ventilación en el panel de la espalda</string>
+		<string>Cordón de ajuste en el dobladillo</string>
+		<string>Guardable en bolsillo de mano</string>
+		<string>Mejorada plantilla NorthoticT Pro de EVA, con almohadillas Poron® Resource para acolchado de talón y planta frontal, y soporte ESS CRADLET</string>
+		<string>Tapabarros Smartlite® de PU</string>
+	</array>
+	<key>feature3</key>
+	<array>
+		<string>Ventilación en el cuerpo</string>
+		<string>Plantilla NorthoticT perforada, de EVA</string>
+		<string>Soporte sobrepuesto con soldadura de TPU</string>
+		<string>&quot;Lengua con cuello anti-escombrosMalla de tejido ceñido, resistente a abrasión</string>
+		<string>Ventilación estratégica por capas</string>
+		<string>&quot;Bolsillos posterior de seguridad con cierreReflectividad</string>
+		<string>Reflectividad</string>
+		<string>Logotipos reflectantes</string>
+		<string>ReflectividadLogos reflectantes</string>
+		<string>Puntos reflectantes para incrementar visibilidad</string>
+		<string>Reflectividad de 360 grados</string>
+		<string>Plantilla NorthoticT perforada, de EVA</string>
+		<string>Sistema de ajuste metatarsiano C-DeltaPlantilla NorthoticT perforada, de EVA</string>
+		<string>&quot;Sistema de ajuste metatarsiano C-DeltaPlantilla NorthoticT perforada, de EVA</string>
+		<string>Bolsillo posterior ambidiestro</string>
+		<string>Bolsillo trasero con cierre</string>
+		<string>Paneles de pantalla</string>
+		<string>Logotipos reflectantes</string>
+		<string>Sistema de correas elásticas para llevar el casco y el bastón de excursión</string>
+		<string>Capucha incorporada, elásticada</string>
+		<string>Puños integrados</string>
+		<string>Tecnología CRADLET para acolchado y estabilidad de talónPlancha interna Bi-FitT compuesta en un 8% por reciclaje post-consumo, afinada ergonómicamente para lograr el nivel de flexibilidad deseado&quot;</string>
+		<string>Plantilla NorthoticT Pro+ premium de EVA, talón de gel, almohadillas OrthoLite® para acolchado de planta frontal</string>
+	</array>
+	<key>feature4</key>
+	<array>
+		<string>Bolsillos para las manos y trasero ambidiestro</string>
+		<string>Plataforma de entresuela CRADLE GUIDET de EVA, con densidad-dua</string>
+		<string>Espesor talón/planta frontal: 16 mm/8 mm</string>
+		<string>Soporte medial con soldadura de TPU y Sistema de ajuste metatarsiano C-Delta</string>
+		<string>Ventilación</string>
+		<string>Logos Reflectantes</string>
+		<string>Short ligero y cómodo</string>
+		<string>none</string>
+		<string>none</string>
+		<string>none</string>
+		<string>Bolsillo en el torso</string>
+		<string>Plataforma de entresuela CRADLE GUIDET de EVA, con densidad-dua</string>
+		<string>CRADLE GUIDET de EVA, de inyección-dual</string>
+		<string>CRADLE GUIDET de EVA, de inyección-dual</string>
+		<string>Drop tail Agujero con cordón para dispositivos electrónicos</string>
+		<string>Logos reflectantes</string>
+		<string>Bolsillo de carga</string>
+		<string>none</string>
+		<string>Bolsillo para dispositivos electrónicos con forro polarBolsillo en el panel frontal&quot;</string>
+		<string>Dos bolsillos para las manos</string>
+		<string>Cordón de ajuste en dobladillo</string>
+		<string>Entresuela de EVA moldeada por compresión</string>
+		<string>Ojales superiores de acero inoxidable y pasadores para fijar empeine</string>
+	</array>
+	<key>feature5</key>
+	<array>
+		<string>Drop tail</string>
+		<string>Espesor talón/planta frontal: 20 mm/12 mm</string>
+		<string>Calugas de goma para alta abrasión localizadas estratégicamente en la suela externa</string>
+		<string>Suela externa TenaciousT Grip de goma adherenteEspesor talón/planta frontal: 16 mm/8 mm</string>
+		<string>Bolsillos para las manosBolsillo trasero ambidiestro</string>
+		<string></string>
+		<string>Pretina con cordón de ajusteLogos reflectantes</string>
+		<string></string>
+		<string></string>
+		<string></string>
+		<string>Agujero para MP3</string>
+		<string>Suela externa TenaciousT Grip de goma adherente Espesor talón/planta frontal: 20 mm/12 mm</string>
+		<string>Espesor talón/planta frontal: 16 mm/8 mm</string>
+		<string>Espesor talón/planta frontal: 16 mm/8 mm</string>
+		<string>Bolsillos para las manos</string>
+		<string>Bolsillos laterales de gel</string>
+		<string>Logos reflectantes</string>
+		<string></string>
+		<string>Reserva de dos litros</string>
+		<string>Puños elasticados</string>
+		<string></string>
+		<string>Exclusiva suela externa Vibram®</string>
+		<string>soporte CRADLET de TPU</string>
+	</array>
+	<key>specs</key>
+	<array>
+		<string>&quot;PESO PROMEDIO/ (6.35 oz)CENTRO ESPALDA/71.12 cm (28&quot;&quot;)TELA/Cuerpo: poliéster ripstop, de 54 g/m2Paneles: 100% malla de poliéster con FlashDryT , de 90 g/m2&quot;</string>
+		<string>&quot;PESO APROXIMADO/1/2 Par: 11.4 oz (325 g)Par: 1 lb 7 oz (650 g)&quot;</string>
+		<string>&quot;PESO APROXIMADO/1/2 Par: 9.4 oz (268 g)Par: 1 lb 3 oz (536 g)&quot;</string>
+		<string>&quot;PESO APROXIMADO/1/2 Par: 9.6 oz (272 g)Par: 1 lb 3 oz (544 g)&quot;</string>
+		<string>&quot;PESO PROMEDIO/ 9.5 ozCENTRO ESPALDA/ 69.850 cm (27.5&quot;&quot;)TELA/ 100% poliéster, de 76 g/m2Panel: 100% malla de poliéster, de 115 g/m2&quot;</string>
+		<string>&quot;ESPECIFICACIONES TÉCNICASPESO PROMEDIO/ 7.05 OZTIRO ENTREPIERNA/ 44.45 cm (17.5&quot;&quot;)TELA/Cuerpo: Jersey 88% poliéster, 12% elastano, de 289 g/m2Paneles: 90% poliéster, 10% elastano de malla, de 140 g/m2&quot;</string>
+		<string>&quot;PESO PROMEDIO/ 3.53 ozTIRO ENTREPIERNA/ 12.700cm (5&quot;&quot;)TELA/Cuerpo: 100% poliéster antidesgarre, de 54 g/m2Panel:malla de poliéster, de 90g/m2Forro:100% poliéster con FlashDryT, de 95 g/m2&quot;</string>
+		<string>&quot;PESO PROMEDIO/ 3.53 ozCENTRO ESPALDA/ 68.580 cm (27&quot;&quot;)TELA/Cuerpo: 100% poliéster con fibra FlashDryTM , de 90 g/m2Panel: Tejido 95% poliéster, 5% elastano, de 110 g&quot;</string>
+		<string>&quot;PESO PROMEDIO/ 5.29 ozTIRO ENTREPIERNA / 17.78 (7&quot;&quot;)TELA/cuerpo: 86% poliéster, 14% elastano con FlashDryTM, de 92 g/m2Paneles: 100% poliéster tricot, de 141 g/m2&quot;</string>
+		<string>&quot;PESO PROMEDIO/ Funda: 135 g (1.4 oz) / Botella: 75 g (2.6 oz)TELA/ nylon ripstop doble 70D 210T, tejido elástico de nylon&quot;</string>
+		<string>&quot;PESO PROMEDIO/ (4.94 oz)CENTRO ESPALDA/ 64.77 cm (25.5&quot;&quot;)TELA/cuerpo: 100%poliéster ripstop, de 54 g/m2Paneles: 100% malla de poliéster con FlashDryT , de 90 g/m2&quot;</string>
+		<string>&quot;PESO APROXIMADO/1/2 Par: 9.2 oz (260 g)Par: 1 lb 2 oz (520 g)&quot;</string>
+		<string>&quot;PESO APROXIMADO/1/2 Par: 8.3 oz (234 g)Par: 1 lb 1 oz (468 g)&quot;</string>
+		<string>&quot;PESO APROXIMADO/1/2 Par: 8.3 oz (234 g)Par: 1 lb 1 oz (468 g)&quot;</string>
+		<string>&quot;PESO PROMEDIO/ 7.8 ozCENTRO ESPALDA/ 66.040 cm (26&quot;&quot;)TELA/ cuerpo: 100% tejido de poliéster de textura, de 76 g/m2Paneles: 100% malla de poliéster, de 115 g/m2&quot;</string>
+		<string>&quot;PESO PROMEDIO/ 8.11 ozTIRO ENTREPIERNA/ 71.12 cm (28&quot;&quot;)TELA/cuerpo: jersey 88% poliéster, 12% elastano, de 289 g/m2Paneles: 90% poliéster, 10% malla de elastano, de 140 g/m2&quot;</string>
+		<string>&quot;PESO PROMEDIO/ 3.5 ozCENTRO ESPALDA/ 26.035 cm (10.25&quot;&quot;)TELA/cuerpo: Jersey único 92% poliéster, 8% elastano , de 258 g/m2Paneles: 90% poliéster, 10% tejido de malla de elastano, de 140 g/m2Paneles: 88% poliéster, 12% elastano, de 290 g/m2Paneles: 82% poliéster, 18% elastano tejido, de 142 g/m2Paneles: 100% poliéster de malla tricot, de 130 g/m2&quot;</string>
+		<string>&quot;PESO PROMEDIO/2.82 ozCENTRO ESPALDA/ 62.230 cm (24.5&quot;&quot;)TELA/ cuerpo: 100% poliéster con FlashDryT, de 90 g/m2panel: 95% poliéster, 5% elastano, de 110 g/m2panel: 83% poliéster, 17% viscosa, de 140 g/m2&quot;</string>
+		<string>&quot;PESO PROMEDIO/ 503 g (1 lb 2 oz)VOLUMEN/ 4 litros (244 in3)TELA/ Nylon ripstop de 210T HT&quot;</string>
+		<string>&quot;PESO PROMEDIO/ 371, 05g (13.09 oz)CENTRO ESPALDA/ 64.770 cm (24.5&quot;&quot;)TELA/: Polar de seda&quot;</string>
+		<string>&quot;PESO PROMEDIO/ 330 g (12 oz)CENTRO ESPALDA/ 63.500 cm (25&quot;&quot;)TELA/ Cuerpo: 100% nylon ripstop con DWR, 20D, de 35 g/m2 (1.015 oz/yd2)Aislación: 800 de relleno&quot;</string>
+		<string>&quot;PESO APROXIMADO/1/2 Par: 1 lb 2 oz (499 g)Par: 2 lb 4 oz (998 g)&quot;</string>
+		<string>&quot;PESO APROXIMADO/1/2 Par: 1 lb 8 oz (681 g)Par: 3 lbs (1362 g)&quot;</string>
+	</array>
+	<key>url</key>
+	<array>
+		<string>http://www.kliper.cl/image/data/TheNorthFace/A49X_C7H.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A4UK_KZ3-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A4UH_A7S-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A4UM_B5U-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A44Y_B8T-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/AXUM_JK3-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A49Z_C9L-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/A49Y_C6L-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A1HN_JK3-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/ARMZ_044-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A1HU_B1D-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A4UP_C9G-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A4UQ_C1L-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A03Z_XN5-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A44F_A3M-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/AVKX_KX7-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/AXTX_JK3-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A1HV_B7X-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/AWJP_C8T-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/AAHY_A3M-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A35J_146-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A04S_WJ0-395x395.JPG</string>
+		<string>http://www.kliper.cl/image/cache/data/TheNorthFace/A4VU_C1K-395x395.JPG</string>
+	</array>
+</dict>
+</plist>
