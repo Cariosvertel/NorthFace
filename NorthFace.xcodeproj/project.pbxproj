@@ -20,7 +20,6 @@
 		4F4D76BF17EBB03D0030D1EA /* NFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D76BE17EBB03D0030D1EA /* NFViewController.m */; };
 		4F4D772417EC050F0030D1EA /* Products.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D772317EC050F0030D1EA /* Products.plist */; };
 		4F4D773017ECDDE60030D1EA /* NFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D772F17ECDDE60030D1EA /* NFCollectionViewCell.m */; };
-		4F4D773317ECE02E0030D1EA /* NFDatabaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F4D773217ECE02E0030D1EA /* NFDatabaseController.m */; };
 		4F4D774D17ECF3420030D1EA /* A1HN_JK3-395x395.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D773617ECF3420030D1EA /* A1HN_JK3-395x395.JPG */; };
 		4F4D774E17ECF3420030D1EA /* A1HU_B1D-395x395.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D773717ECF3420030D1EA /* A1HU_B1D-395x395.JPG */; };
 		4F4D774F17ECF3420030D1EA /* A1HV_B7X-395x395.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4F4D773817ECF3420030D1EA /* A1HV_B7X-395x395.JPG */; };
@@ -66,8 +65,6 @@
 		4F4D772317EC050F0030D1EA /* Products.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Products.plist; sourceTree = "<group>"; };
 		4F4D772E17ECDDE60030D1EA /* NFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFCollectionViewCell.h; path = ../NFCollectionViewCell.h; sourceTree = "<group>"; };
 		4F4D772F17ECDDE60030D1EA /* NFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFCollectionViewCell.m; path = ../NFCollectionViewCell.m; sourceTree = "<group>"; };
-		4F4D773117ECE02E0030D1EA /* NFDatabaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NFDatabaseController.h; sourceTree = "<group>"; };
-		4F4D773217ECE02E0030D1EA /* NFDatabaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NFDatabaseController.m; sourceTree = "<group>"; };
 		4F4D773617ECF3420030D1EA /* A1HN_JK3-395x395.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "A1HN_JK3-395x395.JPG"; path = "NorthFace/A1HN_JK3-395x395.JPG"; sourceTree = "<group>"; };
 		4F4D773717ECF3420030D1EA /* A1HU_B1D-395x395.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "A1HU_B1D-395x395.JPG"; path = "NorthFace/A1HU_B1D-395x395.JPG"; sourceTree = "<group>"; };
 		4F4D773817ECF3420030D1EA /* A1HV_B7X-395x395.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "A1HV_B7X-395x395.JPG"; path = "NorthFace/A1HV_B7X-395x395.JPG"; sourceTree = "<group>"; };
@@ -147,8 +144,6 @@
 				4F4D772E17ECDDE60030D1EA /* NFCollectionViewCell.h */,
 				4F4D772F17ECDDE60030D1EA /* NFCollectionViewCell.m */,
 				4F4D772317EC050F0030D1EA /* Products.plist */,
-				4F4D773117ECE02E0030D1EA /* NFDatabaseController.h */,
-				4F4D773217ECE02E0030D1EA /* NFDatabaseController.m */,
 			);
 			path = NorthFace;
 			sourceTree = "<group>";
@@ -293,7 +288,6 @@
 				4F4D76B317EBB03D0030D1EA /* NFAppDelegate.m in Sources */,
 				4F4D76BF17EBB03D0030D1EA /* NFViewController.m in Sources */,
 				4F4D773017ECDDE60030D1EA /* NFCollectionViewCell.m in Sources */,
-				4F4D773317ECE02E0030D1EA /* NFDatabaseController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
