@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F17299817F22C07000E3386 /* NFSearcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F17299717F22C07000E3386 /* NFSearcher.m */; };
+		4F17DEAD17F007B700C7C826 /* NFQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F17DEAC17F007B700C7C826 /* NFQuestion.m */; };
+		4F17DEB017F00D6C00C7C826 /* NFAsker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F17DEAF17F00D6C00C7C826 /* NFAsker.m */; };
 		4F4D76A317EBB03D0030D1EA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4D76A217EBB03D0030D1EA /* UIKit.framework */; };
 		4F4D76A517EBB03D0030D1EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4D76A417EBB03D0030D1EA /* Foundation.framework */; };
 		4F4D76A717EBB03D0030D1EA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F4D76A617EBB03D0030D1EA /* CoreGraphics.framework */; };
@@ -46,6 +49,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F17299617F22C07000E3386 /* NFSearcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFSearcher.h; path = NorthFace/NFSearcher.h; sourceTree = "<group>"; };
+		4F17299717F22C07000E3386 /* NFSearcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFSearcher.m; path = NorthFace/NFSearcher.m; sourceTree = "<group>"; };
+		4F17DEAB17F007B700C7C826 /* NFQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFQuestion.h; path = NorthFace/NFQuestion.h; sourceTree = "<group>"; };
+		4F17DEAC17F007B700C7C826 /* NFQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFQuestion.m; path = NorthFace/NFQuestion.m; sourceTree = "<group>"; };
+		4F17DEAE17F00D6C00C7C826 /* NFAsker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NFAsker.h; path = NorthFace/NFAsker.h; sourceTree = "<group>"; };
+		4F17DEAF17F00D6C00C7C826 /* NFAsker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NFAsker.m; path = NorthFace/NFAsker.m; sourceTree = "<group>"; };
 		4F4D769F17EBB03D0030D1EA /* NorthFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NorthFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F4D76A217EBB03D0030D1EA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4F4D76A417EBB03D0030D1EA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,9 +113,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F17DEA717F0076F00C7C826 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4F17DEAB17F007B700C7C826 /* NFQuestion.h */,
+				4F17DEAC17F007B700C7C826 /* NFQuestion.m */,
+				4F17DEAE17F00D6C00C7C826 /* NFAsker.h */,
+				4F17DEAF17F00D6C00C7C826 /* NFAsker.m */,
+				4F17299617F22C07000E3386 /* NFSearcher.h */,
+				4F17299717F22C07000E3386 /* NFSearcher.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 		4F4D769617EBB03D0030D1EA = {
 			isa = PBXGroup;
 			children = (
+				4F17DEA717F0076F00C7C826 /* Classes */,
 				4F4D76A817EBB03D0030D1EA /* NorthFace */,
 				4F4D773517ECF2C40030D1EA /* Images */,
 				4F4D76A917EBB03D0030D1EA /* Supporting Files */,
@@ -285,9 +308,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F4D76AF17EBB03D0030D1EA /* main.m in Sources */,
+				4F17299817F22C07000E3386 /* NFSearcher.m in Sources */,
 				4F4D76B317EBB03D0030D1EA /* NFAppDelegate.m in Sources */,
 				4F4D76BF17EBB03D0030D1EA /* NFViewController.m in Sources */,
 				4F4D773017ECDDE60030D1EA /* NFCollectionViewCell.m in Sources */,
+				4F17DEAD17F007B700C7C826 /* NFQuestion.m in Sources */,
+				4F17DEB017F00D6C00C7C826 /* NFAsker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
