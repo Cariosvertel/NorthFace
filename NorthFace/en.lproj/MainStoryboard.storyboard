@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="a0r-rW-M2c">
     <dependencies>
-        <deployment defaultVersion="1552" identifier="iOS"/>
+        <deployment defaultVersion="1536" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
@@ -150,11 +150,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
                                     <navigationItem title="Title" id="DRR-Om-1Ds">
-                                        <barButtonItem key="rightBarButtonItem" title="Finish" id="OdE-V9-7Qp">
-                                            <connections>
-                                                <segue destination="zhW-dJ-2nX" kind="modal" identifier="" id="uU1-wK-vDE"/>
-                                            </connections>
-                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Finish" id="OdE-V9-7Qp"/>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -185,6 +181,13 @@
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="3kf-Z5-N3c">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="YYU-fz-H7H">
+                            <connections>
+                                <segue destination="MrM-X8-LP9" kind="push" id="js5-PW-6tI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
@@ -200,46 +203,45 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-920" y="-2209"/>
+            <point key="canvasLocation" x="54" y="-2209"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="awK-wS-pa9">
+        <!--View Controller-->
+        <scene sceneID="yGF-Xn-Dao">
             <objects>
-                <navigationController definesPresentationContext="YES" id="zhW-dJ-2nX" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="QBK-NE-8Eh"/>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RYW-3D-2T2">
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <connections>
-                        <segue destination="pSZ-gD-cZY" kind="relationship" relationship="rootViewController" id="qhm-RY-TYX"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Umu-C9-Yz9" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="342" y="-1681"/>
-        </scene>
-        <!--View Controller - holaaa-->
-        <scene sceneID="Ne3-tV-te0">
-            <objects>
-                <viewController id="pSZ-gD-cZY" sceneMemberID="viewController">
+                <viewController id="MrM-X8-LP9" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="CBM-r0-0YW"/>
-                        <viewControllerLayoutGuide type="bottom" id="fGB-o6-LCZ"/>
+                        <viewControllerLayoutGuide type="top" id="VrT-yr-lQO"/>
+                        <viewControllerLayoutGuide type="bottom" id="aiu-Ak-eg6"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="UMG-hI-kSJ">
+                    <view key="view" contentMode="scaleToFill" id="XhT-58-b9v">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <navigationItem key="navigationItem" title="holaaa" id="cZs-hy-yzS">
-                        <barButtonItem key="backBarButtonItem" title="holaaa" id="wIr-r0-opR"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="ll7-dZ-XcX"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4sV-Cj-fvW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nzu-yX-sQD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1431" y="-1681"/>
+            <point key="canvasLocation" x="1250" y="-2209"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wj4-77-m4C">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="a0r-rW-M2c" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fvZ-Yd-r8R">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="rootViewController" id="wgl-BJ-hdd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f2l-rg-LG8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-920" y="-2209"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
