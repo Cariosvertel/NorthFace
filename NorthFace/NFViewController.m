@@ -10,6 +10,7 @@
 #import "NFCollectionViewCell.h"
 #import "NFQuestion.h"
 #import "NFAsker.h"
+#import "NFDetailViewController.h"
 
 @interface NFViewController ()
 
@@ -28,7 +29,11 @@
   self.searcher = [[NFSearcher alloc]initWithData: [NSArray arrayWithContentsOfFile:path]];
   self.NumberOfProductsLabel.text = [NSString stringWithFormat:@"%i",[self.searcher.result count]];
   
-
+  
+  //self.view.backgroundColor =[[UIColor alloc]initWithPatternImage:[UIImage imageNamed:@"img7.png"]];
+  
+  [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"img2.png"] forBarMetrics:UIBarMetricsDefault];
+  
   
   
   // datasources
@@ -50,6 +55,7 @@
 
 #pragma mark Actions
 - (IBAction)onButtonPressed:(id)sender {
+
   
   NSArray *questionsString = [NSArray arrayWithObjects:
                         @"Que actividad practicas", //question 1
@@ -197,6 +203,7 @@
       self.startSelling.hidden = YES;
       self.selectActivity.hidden = NO;
       self.questionLabel.hidden = NO;
+      self.nextButton.hidden = NO;
 
 
       
@@ -222,4 +229,15 @@
   
 }
 
+#pragma mark Segues
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+  
+  const NSString *segueId = [segue identifier];
+  if ([segueId isEqualToString:@"detailView"]) {
+    NFDetailViewController *destViewController = [segue destinationViewController];
+    destViewController.product = [self.searcher.result objectAtIndex:[[[self.collectionView indexPathsForSelectedItems] objectAtIndex:0] row]];
+    destViewController.products = self.searcher.data;
+    
+  }
+}
 @end
