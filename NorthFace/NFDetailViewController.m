@@ -50,16 +50,25 @@
   self.image.clipsToBounds = YES;
   [self.image setImage:image];
   
+  //back button
+  UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"< Back" style:UIBarButtonItemStyleBordered target:self action:@selector(backButtonPressed)];
+  
+  backButton.tintColor = [UIColor whiteColor];
+  
+  [self.navigationItem setLeftBarButtonItem:backButton];
+  
 
 }
 - (void)viewWillAppear:(BOOL)animated{
   
   [self.collectionView reloadData];
   
-  
-  
 }
 
+-(void) backButtonPressed{
+  
+  [self.navigationController popToRootViewControllerAnimated:true];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
