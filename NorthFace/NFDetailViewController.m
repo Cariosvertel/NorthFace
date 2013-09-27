@@ -8,6 +8,8 @@
 
 #import "NFDetailViewController.h"
 #import "NFCollectionViewCell.h"
+#import "NFFullScreenViewController.h"
+
 
 @interface NFDetailViewController ()
 
@@ -29,7 +31,6 @@
 
 {
     [super viewDidLoad];
-  self.navigationItem.backBarButtonItem.tintColor = [UIColor whiteColor];
   //random items
   int recomendItems = 5;
   self.recommendations = [[NSMutableArray alloc] init];
@@ -43,19 +44,49 @@
 	// Do any additional setup after loading the view.
   NSDictionary *product = self.product;
   UIImage *image = [UIImage imageNamed:[product valueForKey:@"url"]];
+  [self.imageButton setBackgroundImage:image forState:UIControlStateNormal];
   self.specs.text = [product valueForKey:@"specs"];
   self.details.text = [product valueForKey:@"details"];
   self.name.text = [product valueForKey:@"name"];
-  self.image.contentMode = UIViewContentModeScaleAspectFit;
-  self.image.clipsToBounds = YES;
-  [self.image setImage:image];
+ // self.stockLabel.text = [product valueForKey:@"stock"];
+  self.priceLabel.text = [product valueForKey:@"price"];
+  
+  
+  //Details Rounded border
+  self.specs.layer.borderWidth = 1.0f; /* grosor del borde */
+  self.specs.layer.cornerRadius = 10; /* radio de las esquinas redondeadas (opcional, claro)*/
+  self.specs.layer.borderColor = [[UIColor redColor] CGColor]; /* color (opcional también) */
+  //image Rounded border
+  self.imageButton.layer.borderWidth = 1.0f; /* grosor del borde */
+  self.imageButton.layer.cornerRadius = 10; /* radio de las esquinas redondeadas (opcional, claro)*/
+  self.imageButton.layer.borderColor = [[UIColor redColor] CGColor]; /* color (opcional también) */
+  // details  Rounded border
+  self.details.layer.borderWidth = 1.0f; /* grosor del borde */
+  self.details.layer.cornerRadius = 10; /* radio de las esquinas redondeadas (opcional, claro)*/
+  self.details.layer.borderColor = [[UIColor redColor] CGColor]; /* color (opcional también) */
+
+  //relaciondos Label
+  [self.relacionadosLabel setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"img10.png"]]];
+  self.relacionadosLabel.layer.borderWidth = 1.0f; /* grosor del borde */
+  self.relacionadosLabel.layer.cornerRadius = 10; /* radio de las esquinas redondeadas (opcional, claro)*/
+  self.relacionadosLabel.layer.borderColor = [[UIColor redColor] CGColor]; /* color (opcional también) */
+
+  //price label round
+  [self.relacionadosLabel setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"img10.png"]]];
+  self.priceTitleLabel.layer.borderWidth = 1.0f; /* grosor del borde */
+  self.priceTitleLabel.layer.cornerRadius = 10; /* radio de las esquinas redondeadas (opcional, claro)*/
+  self.priceTitleLabel.layer.borderColor = [[UIColor redColor] CGColor]; /* color (opcional también) */
+
+  
   
   //back button
+  
   UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"< Back" style:UIBarButtonItemStyleBordered target:self action:@selector(backButtonPressed)];
   
   backButton.tintColor = [UIColor whiteColor];
   
   [self.navigationItem setLeftBarButtonItem:backButton];
+  
   
 
 }
@@ -99,6 +130,14 @@
   [cell.productImage setImage:image];
   
   return  cell;
+}
+#pragma mark Segues
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+  
+  if ([[segue identifier] isEqualToString:@"fullScreenImage"]) {
+    NFFullScreenViewController *fvc = [segue destinationViewController];
+    fvc.product = self.product;
+  }
 }
 
 
