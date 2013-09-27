@@ -9,13 +9,13 @@
 #import "NFSearcher.h"
 
 @implementation NFSearcher
-@synthesize lastQuery = _lastQuery;
+@synthesize data = _data;
 @synthesize result = _result;
 
 -(id) initWithData :(NSArray*) array {
   self = [super init];
   self.result = [[NSArray alloc] initWithArray:array];
-  
+  self.data = self.result;
   return  self;
 }
 -(void) search:(NSDictionary*) tags{

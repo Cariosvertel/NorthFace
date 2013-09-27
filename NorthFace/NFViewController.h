@@ -19,15 +19,15 @@
 @property (strong, nonatomic) IBOutlet UIButton *nextButton;
 @property (strong, nonatomic) IBOutlet UIButton *finishButton;
 @property (strong, nonatomic) IBOutlet UILabel *NumberOfProductsLabel;
+@property (strong, nonatomic) IBOutlet UILabel *backgroundProductsNumber;
+@property (strong, nonatomic) IBOutlet UINavigationItem *navigation;
 @property (strong, nonatomic) NFAsker * asker;
 @property (strong, nonatomic) NFSearcher *searcher;
 
 - (IBAction)onButtonPressed:(id)sender;
 - (IBAction)nextButtonPressed:(id)sender;
-- (IBAction)finishButtonPressed:(id)sender;
 
 
-- (void)activateQuestion:(NSInteger) questionNumber;
 -(void) showQuestionFromAsker;
 + (NSString *) bundlePathForFille:(NSString *)fileName;
 

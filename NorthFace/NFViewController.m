@@ -10,6 +10,8 @@
 #import "NFCollectionViewCell.h"
 #import "NFQuestion.h"
 #import "NFAsker.h"
+#import "NFDetailViewController.h"
+#import "NFCatalogViewController.h"
 
 @interface NFViewController ()
 
@@ -22,14 +24,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-  
+
   //load database
   NSString *path = [NFViewController bundlePathForFille:@"Products.plist"];
   self.searcher = [[NFSearcher alloc]initWithData: [NSArray arrayWithContentsOfFile:path]];
   self.NumberOfProductsLabel.text = [NSString stringWithFormat:@"%i",[self.searcher.result count]];
   
-
   
+  // set appareace setting
+  [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"img2.png"] forBarMetrics:UIBarMetricsDefault];
+  self.NumberOfProductsLabel.layer.cornerRadius = 52;
+  self.backgroundProductsNumber.layer.cornerRadius = 10;
   
   // datasources
   self.collectionView.dataSource = self;
@@ -37,6 +42,31 @@
   self.pickerView.dataSource = self;
   self.selectActivity.delegate = self;
   
+  
+  // initiates questions
+  NSArray *questionsString = [NSArray arrayWithObjects:
+                              @"Que actividad practicas?", //question 1
+                              @"Que beneficios esperas?", // question 2
+                              @"Que genero eres?", // question 3
+                              nil ];
+  NSArray *questionsTag = [NSArray arrayWithObjects:@"activity", @"benefits", @"category", nil];
+  
+  //create asker obj
+  NFAsker *asker = [[NFAsker alloc] init]; //asker
+  for (int i = 0; i<[questionsString count]; i++) {
+    [asker addQuestion:[[NFQuestion alloc] initWithQuestion:[questionsString objectAtIndex:i]]];
+    [asker questionAtIndex:i].tag  = [questionsTag objectAtIndex:i];
+  }
+  
+  //add possible answers
+  for (int i = 0; i<[self.searcher.result count]; i++) {
+    [[asker questionAtIndex:0] addPossibleAnswer:[[self.searcher.result objectAtIndex:i] valueForKey:@"activity"]];
+    [[asker questionAtIndex:1] addPossibleAnswer:[[self.searcher.result objectAtIndex:i] valueForKey:@"benefits"]];
+    [[asker questionAtIndex:2] addPossibleAnswer:[[self.searcher.result objectAtIndex:i] valueForKey:@"category"]];
+    
+  }
+  self.asker = asker;
+
   
 }
 
@@ -51,38 +81,30 @@
 #pragma mark Actions
 - (IBAction)onButtonPressed:(id)sender {
   
-  NSArray *questionsString = [NSArray arrayWithObjects:
-                        @"Que actividad practicas", //question 1
-                        @"Que beneficios esperas", // question 2
-                        @"Que genero eres", // question 3
-                        nil ];
-  NSArray *questionsTag = [NSArray arrayWithObjects:@"activity", @"benefits", @"category", nil];
-  
-  //create questions obj
-  NFAsker *asker = [[NFAsker alloc] init]; //asker
-  for (int i = 0; i<[questionsString count]; i++) {
-    [asker addQuestion:[[NFQuestion alloc] initWithQuestion:[questionsString objectAtIndex:i]]];
-    [asker questionAtIndex:i].tag  = [questionsTag objectAtIndex:i];
-  }
+    [self showQuestionFromAsker];
 
-  //add possible answers
-  for (int i = 0; i<[self.searcher.result count]; i++) {
-    [[asker questionAtIndex:0] addPossibleAnswer:[[self.searcher.result objectAtIndex:i] valueForKey:@"activity"]];
-    [[asker questionAtIndex:1] addPossibleAnswer:[[self.searcher.result objectAtIndex:i] valueForKey:@"benefits"]];
-    [[asker questionAtIndex:2] addPossibleAnswer:[[self.searcher.result objectAtIndex:i] valueForKey:@"category"]];
-    
-  }
-  self.asker = asker;
-  [self showQuestionFromAsker];
+}
+- (IBAction)homeButtonPressed:(id)sender {
+  
+  //reset appareance
+  self.asker.currentIndex = 0;
+  self.searcher.result = self.searcher.data;
+  [self.asker.answers removeAllObjects];
+  self.startSelling.hidden = NO;
+  self.nextButton.hidden = YES;
+  self.nextButton.enabled = YES;
+  self.selectActivity.hidden = YES;
+  self.NumberOfProductsLabel.text = [NSString stringWithFormat:@"%i",[self.searcher.result count]];
+  [self.collectionView reloadData];
 
 }
 
 - (IBAction)nextButtonPressed:(id)sender {
   
   [self.asker addAnswerForCurrentQuestion:self.selectActivity.text]; //save answer
-  //make query
-  [self.searcher search:self.asker.answers];
-  [self.collectionView reloadData]; // reload database
+
+  [self.searcher search:self.asker.answers]; //make query
+  [self.collectionView reloadData]; // reload list
   self.NumberOfProductsLabel.text = [NSString stringWithFormat:@"%i",[self.searcher.result count]]; // number of items
   if (self.asker.currentIndex<2) {
     [self.asker incrementQuestion];
@@ -163,6 +185,7 @@
   NSMutableArray *answers = [[self.asker.questions objectAtIndex:self.asker.currentIndex] answers];
   return [answers objectAtIndex:row];
 }
+
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component{
   
   NSMutableArray *answers = [[self.asker.questions objectAtIndex:self.asker.currentIndex] answers];
@@ -197,6 +220,7 @@
       self.startSelling.hidden = YES;
       self.selectActivity.hidden = NO;
       self.questionLabel.hidden = NO;
+      self.nextButton.hidden = NO;
 
 
       
@@ -222,4 +246,27 @@
   
 }
 
+#pragma mark Segues
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+  
+  const NSString *segueId = [segue identifier];
+  
+  //detail view
+  if ([segueId isEqualToString:@"detailView"]) {
+    NFDetailViewController *destViewController = [segue destinationViewController];
+    destViewController.product = [self.searcher.result objectAtIndex:[[[self.collectionView indexPathsForSelectedItems] objectAtIndex:0] row]];
+    destViewController.products = self.searcher.data;
+    
+  }
+  //catalog view
+  if ([segueId isEqualToString:@"catalogView"]) {
+    NFCatalogViewController *cvc = [segue destinationViewController];
+    cvc.searcher = [[NFSearcher alloc] initWithData:self.searcher.result];
+    //send questions
+    cvc.questions = self.asker.questions;
+    
+  }
+  
+  
+}
 @end

@@ -10,7 +10,7 @@
 
 @interface NFSearcher : NSObject
 
-@property (nonatomic, strong) NSArray* lastQuery;
+@property (nonatomic, strong) NSArray* data;
 @property (nonatomic, strong) NSArray* result;
 -(id) initWithData :(NSArray*) array;
 -(void) search:(NSDictionary*) tags;
